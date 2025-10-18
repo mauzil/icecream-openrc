@@ -8,7 +8,7 @@ depend() {
 
 start() {
     	iceccd_bin="${ICECCD_BIN:-"/usr/lib/icecream/sbin/iceccd"}"
- 	icecc_schedulder_bin="${ICECC_SCHEDULER_BIN:-"/usr/lib/icecream/sbin/icecc-scheduler"}"
+ 	icecc_scheduler_bin="${ICECC_SCHEDULER_BIN:-"/usr/lib/icecream/sbin/icecc-scheduler"}"
 	asedir="${ICECREAM_BASEDIR:-"/var/cache/icecream"}"
 	verbosity="${ICECREAM_VERBOSITY:-"-v"}"
 	netname="${ICECREAM_NETNAME:+"-n ${ICECREAM_NETNAME}"}"
